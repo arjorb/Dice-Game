@@ -72,3 +72,12 @@ btnHold.addEventListener('click', function () {
     }
   }
 });
+
+btnNew.addEventListener('click', function () {
+  scores = [0, 0];
+  score0El.textContent = scores[0];
+  score1El.textContent = scores[1];
+  current0El.textContent = 0;
+  current1El.textContent = 0;
+  diceEl.classList.add('hidden');
+});
